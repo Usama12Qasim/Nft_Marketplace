@@ -1,0 +1,67 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "Royalties",
+  "sourceName": "contracts/Royalties.sol",
+  "abi": [
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "seller",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "RoyaltyFee_transfer",
+          "type": "uint256"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "NFTprice",
+          "type": "uint256"
+        }
+      ],
+      "name": "Royalties_Fee_Calculations",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "Marketplace_Owner",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "Servicefee",
+          "type": "uint256"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "NFTprice",
+          "type": "uint256"
+        }
+      ],
+      "name": "Service_Fee_Calculations",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [],
+      "name": "Total_Fees_Calculations",
+      "type": "event"
+    }
+  ],
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea26469706673582212209c754cb9e2448bf9e9b5e1e8eafb99dd046a6c9609ffed9ac81a560eb5717bee64736f6c63430008140033",
+  "deployedBytecode": "0x6080604052600080fdfea26469706673582212209c754cb9e2448bf9e9b5e1e8eafb99dd046a6c9609ffed9ac81a560eb5717bee64736f6c63430008140033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}
